@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style> 
+    form{
+        display: flex;
+    flex-direction: column;
+    width: 15%;
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>Forms in HTML</h1>
+<!--     
+    Method : It is the type of request given to the server.
+    2 types of method are there
+    Get request ==> to get the data from the server.
+    Post request ==> to send the data to the server.
+    Action : It is the file where data of the form will added. -->
+
+
+        <form action="" method="post">
+
+            <input type="text" placeholder="Enter your Name" required>
+            <input type="number" placeholder="Enter your Number" required>
+            <input type="email" placeholder="Enter your emal required" required>
+            <input type="range" placeholder="Enter your emal" required>
+            <input type="password" placeholder="Enter your password" readonly>
+            Choose the gender?
+           <span>Male <input type="radio"  id="gender" name="gender">
+            Female  <input type="radio" id="gender" name="gender"></span> 
+            Choose the gender?
+           <span>Male <input type="checkbox"  id="gender" name="gender">
+            Female  <input type="checkbox" id="gender" name="gender"></span> 
+            <input type="submit">
+
+
+
+        </form>
+</body>
+</html>
